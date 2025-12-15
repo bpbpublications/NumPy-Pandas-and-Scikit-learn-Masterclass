@@ -1,2 +1,2 @@
-# NumPy Pandas and Scikit-learn Masterclass
-NumPy, Pandas, and Scikit-learn Masterclass, by BPB Publications
+# bpb-nutshell-scikit-learn
+Holding directory 

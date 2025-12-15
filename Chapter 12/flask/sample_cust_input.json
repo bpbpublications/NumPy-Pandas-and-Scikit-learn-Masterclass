@@ -1,0 +1,20 @@
+{
+    "CustomerID": "CUST00002",
+    "Age": 65,
+    "Gender": "Male",
+    "Tenure": 22.46,
+    "MonthlyCharges": 86.31,
+    "ServiceUsage": 1.36,
+    "ContractType": "Two-Year",
+    "PaymentMethod": "Mailed Check",
+    "CustomerSupportCalls": 0.0
+},
+{"CustomerID": "CUST00002",
+    "Age": 65,
+    "Gender": "Male",
+    "Tenure": 22.46,
+    "MonthlyCharges": 86.31,
+    "ServiceUsage": 1.36,
+    "ContractType": "Two-Year",
+    "PaymentMethod": "Mailed Check",
+    "CustomerSupportCalls": 0.0}

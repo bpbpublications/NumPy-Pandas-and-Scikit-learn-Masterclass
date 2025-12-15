@@ -1,0 +1,9 @@
+openai
+torch
+torchvision
+transformers
+accelerate
+nltk
+googletrans
+tpot
+shap

@@ -1,0 +1,6 @@
+optuna
+xgboost
+optuna[visualization]
+optuna-integration[xgboost]
+plotly
+nbformat

@@ -1,0 +1,18 @@
+{
+  "stacking_clf__rf__n_estimators": [
+    100,
+    200
+  ],
+  "stacking_clf__svc__C": [
+    0.1,
+    1.0
+  ],
+  "stacking_clf__gb__learning_rate": [
+    0.05,
+    0.1
+  ],
+  "stacking_clf__final_estimator__C": [
+    0.1,
+    1.0
+  ]
+}

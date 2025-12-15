@@ -1,0 +1,43 @@
+task: classification
+data:
+  categorical_features: []
+  numerical_features:
+  - mean radius
+  - mean texture
+  - mean perimeter
+  - mean area
+  - mean smoothness
+  path: data_classification.csv
+  random_state: 42
+  target: target
+  test_size: 0.2
+model:
+  model_class: sklearn.ensemble.RandomForestClassifier
+  model_params:
+    random_state: 42
+  param_distributions:
+    max_depth:
+      type: choice
+      values:
+      - null
+      - 10
+      - 20
+    n_estimators:
+      high: 300
+      low: 100
+      type: int
+  tune_hyperparameters: true
+  type: random_forest
+output:
+  model_path: outputs/classification_model.joblib
+preprocessing:
+  cv: 5
+  estimator: logistic_regression
+  method: rfecv
+  scoring: f1_macro
+  use_feature_selection: true
+  use_pca: false
+search:
+  cv: 5
+  n_iter: 10
+  scoring: f1_macro

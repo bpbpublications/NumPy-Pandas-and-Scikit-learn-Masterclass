@@ -1,0 +1,44 @@
+task: regression
+
+data:
+  path: data_regression.csv
+  target: target
+  categorical_features: []
+  numerical_features:
+    - Feature_1
+    - Feature_2
+    - Feature_3
+    - Feature_4
+    - Feature_5
+  test_size: 0.2
+  random_state: 42
+
+preprocessing:
+  use_pca: false
+  use_feature_selection: true
+  method: rfecv
+  estimator: random_forest
+  cv: 5
+  scoring: r2
+
+model:
+  model_class: sklearn.ensemble.RandomForestRegressor
+  model_params:
+    random_state: 42
+  tune_hyperparameters: true
+  param_distributions:
+    n_estimators:
+      type: int
+      low: 100
+      high: 300
+    max_depth:
+      type: choice
+      values: [null, 10, 20]
+
+search:
+  n_iter: 10
+  cv: 5
+  scoring: r2
+
+output:
+  model_path: outputs/regression_model.joblib

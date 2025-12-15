@@ -1,0 +1,8 @@
+flask
+flask-restx
+joblib
+pandas 
+scikit-learn
+fastapi
+loguru
+pydantic

@@ -1,0 +1,92 @@
+[
+    {
+        "CustomerID": "CUST00000",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.8480752617672945,
+            "Medium Risk": 0.006131916466936436,
+            "High Risk": 0.14579282176576905
+        }
+    },
+    {
+        "CustomerID": "CUST00001",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9646649266859322,
+            "Medium Risk": 0.003194305992867116,
+            "High Risk": 0.03214076732120065
+        }
+    },
+    {
+        "CustomerID": "CUST00002",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9714372736684537,
+            "Medium Risk": 0.002957028288721891,
+            "High Risk": 0.025605698042824344
+        }
+    },
+    {
+        "CustomerID": "CUST00003",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9939161049052592,
+            "Medium Risk": 0.0012430587925433786,
+            "High Risk": 0.004840836302197641
+        }
+    },
+    {
+        "CustomerID": "CUST00004",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9827651096499838,
+            "Medium Risk": 0.0024057494773009115,
+            "High Risk": 0.014829140872715448
+        }
+    },
+    {
+        "CustomerID": "CUST00005",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9934776450069862,
+            "Medium Risk": 0.0012730371975784194,
+            "High Risk": 0.005249317795435345
+        }
+    },
+    {
+        "CustomerID": "CUST00006",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9918786159416755,
+            "Medium Risk": 0.0015407074226733725,
+            "High Risk": 0.00658067663565137
+        }
+    },
+    {
+        "CustomerID": "CUST00007",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9925905297386696,
+            "Medium Risk": 0.0015408401725827989,
+            "High Risk": 0.005868630088747689
+        }
+    },
+    {
+        "CustomerID": "CUST00008",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9901855846442145,
+            "Medium Risk": 0.0018546518080566742,
+            "High Risk": 0.007959763547728801
+        }
+    },
+    {
+        "CustomerID": "CUST00009",
+        "prediction": "Low Risk",
+        "prediction_probs": {
+            "Low Risk": 0.9901184998584659,
+            "Medium Risk": 0.001686386829038741,
+            "High Risk": 0.008195113312495252
+        }
+    }
+]

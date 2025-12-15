@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "CustomerID": "CUST00000",
+      "Age": 30,
+      "Gender": "Male",
+      "Tenure": 5.0,
+      "MonthlyCharges": 50.0,
+      "ServiceUsage": 1.0,
+      "ContractType": "Month-to-Month",
+      "PaymentMethod": "Credit Card",
+      "CustomerSupportCalls": 0.0
+    },
+    {
+      "CustomerID": "CUST00001",
+      "Age": 31,
+      "Gender": "Female",
+      "Tenure": 5.5,
+      "MonthlyCharges": 53.25,
+      "ServiceUsage": 1.1,
+      "ContractType": "One-Year",
+      "PaymentMethod": "Bank Transfer",
+      "CustomerSupportCalls": 1.0
+    },
+    {
+      "CustomerID": "CUST00002",
+      "Age": 32,
+      "Gender": "Male",
+      "Tenure": 6.0,
+      "MonthlyCharges": 56.5,
+      "ServiceUsage": 1.2,
+      "ContractType": "Two-Year",
+      "PaymentMethod": "Electronic Check",
+      "CustomerSupportCalls": 2.0
+    },
+    {
+      "CustomerID": "CUST00003",
+      "Age": 33,
+      "Gender": "Female",
+      "Tenure": 6.5,
+      "MonthlyCharges": 59.75,
+      "ServiceUsage": 1.3,
+      "ContractType": "Month-to-Month",
+      "PaymentMethod": "Mailed Check",
+      "CustomerSupportCalls": 3.0
+    },
+    {
+      "CustomerID": "CUST00004",
+      "Age": 34,
+      "Gender": "Male",
+      "Tenure": 7.0,
+      "MonthlyCharges": 63.0,
+      "ServiceUsage": 1.4,
+      "ContractType": "One-Year",
+      "PaymentMethod": "Credit Card",
+      "CustomerSupportCalls": 4.0
+    },
+    {
+      "CustomerID": "CUST00005",
+      "Age": 35,
+      "Gender": "Female",
+      "Tenure": 7.5,
+      "MonthlyCharges": 66.25,
+      "ServiceUsage": 1.5,
+      "ContractType": "Two-Year",
+      "PaymentMethod": "Bank Transfer",
+      "CustomerSupportCalls": 0.0
+    },
+    {
+      "CustomerID": "CUST00006",
+      "Age": 36,
+      "Gender": "Male",
+      "Tenure": 8.0,
+      "MonthlyCharges": 69.5,
+      "ServiceUsage": 1.6,
+      "ContractType": "Month-to-Month",
+      "PaymentMethod": "Electronic Check",
+      "CustomerSupportCalls": 1.0
+    },
+    {
+      "CustomerID": "CUST00007",
+      "Age": 37,
+      "Gender": "Female",
+      "Tenure": 8.5,
+      "MonthlyCharges": 72.75,
+      "ServiceUsage": 1.7,
+      "ContractType": "One-Year",
+      "PaymentMethod": "Mailed Check",
+      "CustomerSupportCalls": 2.0
+    },
+    {
+      "CustomerID": "CUST00008",
+      "Age": 38,
+      "Gender": "Male",
+      "Tenure": 9.0,
+      "MonthlyCharges": 76.0,
+      "ServiceUsage": 1.8,
+      "ContractType": "Two-Year",
+      "PaymentMethod": "Credit Card",
+      "CustomerSupportCalls": 3.0
+    },
+    {
+      "CustomerID": "CUST00009",
+      "Age": 39,
+      "Gender": "Female",
+      "Tenure": 9.5,
+      "MonthlyCharges": 79.25,
+      "ServiceUsage": 1.9,
+      "ContractType": "Month-to-Month",
+      "PaymentMethod": "Bank Transfer",
+      "CustomerSupportCalls": 4.0
+    }
+  ]
+}
